@@ -58,7 +58,10 @@ const Hero = ({ data }) => {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-600 to-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
 
-          <button className="px-8 py-4 border-2 border-purple-500/50 rounded-full font-semibold transition-all duration-300 hover:bg-purple-500/10 hover:border-purple-400">
+          <button
+            className="px-8 py-4 border-2 border-purple-500/50 rounded-full font-semibold transition-all duration-300 hover:bg-purple-500/10 hover:border-purple-400"
+            onClick={() => window.open("https://drive.google.com/file/d/1Cd12DoKg9U85V0ah7W_ztURqzMF4w71d/view?usp=sharing", "_blank")}
+            >
             Download Resume
           </button>
         </div>

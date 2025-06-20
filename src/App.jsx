@@ -17,12 +17,12 @@ function App() {
   // Mock data that would come from MongoDB
   const mockData = {
     personal: {
-      name: "Alex Chen",
-      title: "AI Engineer & Full Stack Developer",
+      name: "Prakhar Pande",
+      title: "Full Stack Web Developer",
       bio: "Passionate about creating intelligent solutions that bridge the gap between human creativity and artificial intelligence.",
       avatar: "/placeholder.svg?height=400&width=400",
-      email: "alex@example.com",
-      location: "San Francisco, CA",
+      email: "pandeprakhar1801@gmail.com",
+      location: "Nagpur, Maharashtra, India",
     },
     projects: [
       {
@@ -57,14 +57,32 @@ function App() {
         featured: false,
       },
     ],
-    skills: [
-      { name: "Machine Learning", level: 95, category: "AI/ML" },
-      { name: "React", level: 90, category: "Frontend" },
+    skills : [
+      { name: "HTML", level: 90, category: "Frontend" },
+      { name: "CSS", level: 88, category: "Frontend" },
+      { name: "JavaScript", level: 92, category: "Frontend" },
+      { name: "ReactJS", level: 90, category: "Frontend" },
+      { name: "NodeJS", level: 85, category: "Backend" },
+      { name: "C/C++", level: 80, category: "Programming Language" },
+      { name: "Java", level: 86, category: "Programming Language" },
       { name: "Python", level: 88, category: "Backend" },
-      { name: "TensorFlow", level: 85, category: "AI/ML" },
-      { name: "Node.js", level: 82, category: "Backend" },
+      { name: "MySQL", level: 82, category: "Database" },
       { name: "MongoDB", level: 80, category: "Database" },
-    ],
+      { name: "ExpressJS", level: 84, category: "Backend" },
+      { name: "Spring", level: 78, category: "Backend" },
+      { name: "SpringBoot", level: 80, category: "Backend" },
+      { name: "REST API", level: 87, category: "Backend" },
+      { name: "OpenCV", level: 82, category: "AI/ML" },
+      { name: "Auth0", level: 75, category: "Authentication" },
+      { name: "Tailwind CSS", level: 85, category: "Frontend" },
+      { name: "AWS S3", level: 80, category: "Cloud" },
+      { name: "AWS EC2", level: 82, category: "Cloud" },
+      { name: "AWS Lambda", level: 78, category: "Cloud" },
+      { name: "AWS VPC", level: 76, category: "Cloud" },
+      { name: "Vercel", level: 88, category: "Deployment" },
+      { name: "Docker", level: 84, category: "DevOps" },
+      { name: "Jenkins", level: 78, category: "DevOps" }
+    ]
   }
 
   useEffect(() => {
