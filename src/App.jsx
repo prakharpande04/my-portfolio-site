@@ -7,11 +7,9 @@ import About from "./components/About"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
-import LoadingScreen from "./components/LoadingScreen"
 import ParticleBackground from "./components/ParticleBackground"
 
 function App() {
-  const [loading, setLoading] = useState(true)
   const [portfolioData, setPortfolioData] = useState(null)
 
   // Mock data that would come from MongoDB
@@ -90,15 +88,10 @@ function App() {
     const fetchData = async () => {
       await new Promise((resolve) => setTimeout(resolve, 2000))
       setPortfolioData(mockData)
-      setLoading(false)
     }
 
     fetchData()
   }, [])
-
-  if (loading) {
-    return <LoadingScreen />
-  }
 
   return (
     <div className="relative min-w-screen min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white overflow-x-hidden">

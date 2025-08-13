@@ -29,6 +29,13 @@ const Contact = ({ data }) => {
     setSubmitted(true)
     setFormData({ name: "", email: "", message: "" })
 
+    try {
+      const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/addQuery`, formData);
+      console.log("Form sent to backend:", response.data);
+    } catch (error) {
+      console.error("Error sending form:", error);
+    }
+    
     setTimeout(() => setSubmitted(false), 5000)
   }
 
