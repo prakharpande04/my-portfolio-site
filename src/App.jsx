@@ -27,34 +27,34 @@ function App() {
     projects: [
       {
         id: 1,
-        title: "Neural Network Visualizer",
+        title: "FaceTrack : An automatic Attendance Marking System using Group Photos",
         description:
-          "Interactive web application for visualizing neural network architectures and training processes in real-time.",
+          "Web application for marking attendance using facial recognition and group photos.",
         image: "/placeholder.svg?height=300&width=500",
-        technologies: ["React", "D3.js", "TensorFlow.js", "WebGL"],
-        github: "https://github.com",
-        demo: "https://demo.com",
-        featured: true,
+        technologies: ["React", "Node.js", "MongoDB", "OpenCV", "Express.js", "Tailwind CSS", "Auth0", "Python"],
+        github: "https://github.com/Mini-Project-5th-sem-gr10",
+        site: "https://rbu-attendace.vercel.app/",
+        filter: "aiml"
       },
       {
         id: 2,
-        title: "AI Chat Assistant",
-        description: "Intelligent chatbot with natural language processing capabilities and context-aware responses.",
+        title: "QueryNexus: NLP based Customer Query Handling System",
+        description: "AI-powered system for handling customer queries using natural language processing.",
         image: "/placeholder.svg?height=300&width=500",
-        technologies: ["Python", "OpenAI API", "FastAPI", "React"],
-        github: "https://github.com",
-        demo: "https://demo.com",
-        featured: true,
+        technologies: ["React", "Node.js", "MongoDB", "OpenAI API", "Express.js", "Tailwind CSS", "Auth0"],
+        github: "https://github.com/orgs/QueryNexus/dashboard",
+        site: "https://querynexus.netlify.app",
+        filter: "aiml"
       },
       {
         id: 3,
-        title: "Smart Analytics Dashboard",
-        description: "Real-time analytics platform with predictive insights and automated reporting features.",
+        title: "ShopNexus : An ECommerce Platform",
+        description: "An ecommerce platform. Users can browse products, add them to cart, and make purchases.",
         image: "/placeholder.svg?height=300&width=500",
         technologies: ["Vue.js", "Node.js", "MongoDB", "Chart.js"],
-        github: "https://github.com",
-        demo: "https://demo.com",
-        featured: false,
+        github: "https://github.com/prakharpande04/ShopNexus",
+        site: "https://shopnexus04.vercel.app",
+        filter: "web"
       },
     ],
     skills : [
@@ -69,8 +69,6 @@ function App() {
       { name: "MySQL", level: 82, category: "Database" },
       { name: "MongoDB", level: 80, category: "Database" },
       { name: "ExpressJS", level: 84, category: "Backend" },
-      { name: "Spring", level: 78, category: "Backend" },
-      { name: "SpringBoot", level: 80, category: "Backend" },
       { name: "REST API", level: 87, category: "Backend" },
       { name: "OpenCV", level: 82, category: "AI/ML" },
       { name: "Auth0", level: 75, category: "Authentication" },
@@ -79,9 +77,7 @@ function App() {
       { name: "AWS EC2", level: 82, category: "Cloud" },
       { name: "AWS Lambda", level: 78, category: "Cloud" },
       { name: "AWS VPC", level: 76, category: "Cloud" },
-      { name: "Vercel", level: 88, category: "Deployment" },
-      { name: "Docker", level: 84, category: "DevOps" },
-      { name: "Jenkins", level: 78, category: "DevOps" }
+      { name: "Vercel", level: 88, category: "Deployment" }
     ]
   }
 

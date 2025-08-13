@@ -60,7 +60,7 @@ const Hero = ({ data }) => {
 
           <button
             className="px-8 py-4 border-2 border-purple-500/50 rounded-full font-semibold transition-all duration-300 hover:bg-purple-500/10 hover:border-purple-400"
-            onClick={() => window.open("https://drive.google.com/file/d/1Cd12DoKg9U85V0ah7W_ztURqzMF4w71d/view?usp=sharing", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1CvrgaLhIdF9C1n5i7nyNu4PQCP1Acw6C/view?usp=sharing", "_blank")}
             >
             Download Resume
           </button>
