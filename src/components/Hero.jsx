@@ -31,9 +31,8 @@ const Hero = ({ data }) => {
             <img
               src={data?.avatar || "/placeholder.svg"}
               alt={data?.name}
-              className="w-32 h-32 rounded-full border-4 border-purple-500/50 shadow-2xl shadow-purple-500/25 mx-auto mb-6 animate-pulse"
+              className="w-32 h-32 rounded-full object-cover"
             />
-            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-cyan-400 to-purple-400 opacity-75 blur animate-pulse"></div>
           </div>
         </div>
 
